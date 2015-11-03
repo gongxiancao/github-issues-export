@@ -1,0 +1,32 @@
+{
+  "name": "github-issues-export",
+  "version": "1.0.0",
+  "description": "export github issues to excel/csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "github-issues-export --user <username> --password <password> --out issues.xlsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gongxiancao/github-issues-export.git"
+  },
+  "keywords": [
+    "github",
+    "issues",
+    "export",
+    "excel"
+  ],
+  "author": "gongxiancao@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gongxiancao/github-issues-export/issues"
+  },
+  "homepage": "https://github.com/gongxiancao/github-issues-export",
+  "dependencies": {
+    "excel-export": "cloudnapps/Node-Excel-Export",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "optimist": "^0.6.1",
+    "request": "^2.51.0"
+  }
+}
